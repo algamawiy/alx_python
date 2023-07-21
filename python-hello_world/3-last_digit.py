@@ -8,7 +8,7 @@ else:
     last_digit = number[-1]
 number = int(number)
 last_digit = int(last_digit)
-if number > 0 and last_digit > 5:
+if last_digit > 5:
     print(f"Last digit of {number} is {last_digit} and is greater than 5")
 if last_digit == 0:
     print(f"Last digit of {number} is {last_digit} and is 0")

@@ -1,4 +1,4 @@
-#usr/bin/python3
+#!usr/bin/python3
 def print_numbers():
     for i in range(100):
         print("{:02}".format(i), end=", ")
